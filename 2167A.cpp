@@ -5,15 +5,12 @@ int main(){
     int n;
     cin>>n;
     while(n--){
-        int k;
-        cin>>k;
-        string s,t;
+        int s[4];
+        for(int i=0; i<4; i++){
+            cin>>s[i];
+        }
 
-        cin>>s>>t;
-        sort(s.begin(), s.end());
-        sort(t.begin(), t.end());
-
-        if(s == t){
+        if(s[0] == s[1] && s[2] == s[3] && s[0] == s[2] && s[1] == s[3]){
             cout<<"YES"<<endl;
         }
         else{

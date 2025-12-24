@@ -1,0 +1,10 @@
+# C / C++ build files
+*.exe
+*.out
+*.o
+*.obj
+
+# Optional
+.vscode/
+build/
+bin/
