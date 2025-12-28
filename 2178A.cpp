@@ -9,15 +9,15 @@ int main(){
 
         int count = 0;
         for(int i=0; i<s.size(); i++){
-            if(s[i] == 'N'){
+            if(s[i] == 'Y'){
                 count++;
             }
         }
         if(count >= 2){
-            cout<<"YES"<<endl;
+            cout<<"NO"<<endl;
         }
         else{
-            cout<<"NO"<<endl;
+            cout<<"YES"<<endl;
         }
     }
     return 0;
